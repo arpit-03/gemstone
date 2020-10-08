@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 
 # config valid for current version and patch releases of Capistrano
-set :application, "ashish"
-set :repo_url, "git://github.com/arpit-03/aashsih.git"
+set :application, "gemstone"
+set :repo_url, "git://github.com/arpit-03/gemstone.git"
 
 # Deploy to the user's home directory
 set :deploy_to, "/home/ubuntu/#{fetch :application}"
