@@ -8,7 +8,7 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 
 
-server '52.66.5.146', user: 'ubuntu', roles: %w{app db web}
+server '35.154.31.180', user: 'ubuntu', roles: %w{app db web}
 set :ssh_options, {
    keys: %w(/home/arpit/Downloads/Aashish.pem),
    forward_agent: false,
