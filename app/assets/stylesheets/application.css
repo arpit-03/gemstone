@@ -713,9 +713,11 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("https://bootstrapmade.com/demo/themes/Gp/assets/img/cta-bg.jpg") fixed center center;
-  background-size: cover;
+  background:  url("https://i.ibb.co/SBV41H7/Whats-App-Image-2020-10-09-at-7-12-56-PM.jpg") center center;
+  background-size: contain;
+  background-repeat: no-repeat;
   padding: 60px 0;
+  height: 60vh;
 }
 
 .cta h3 {
