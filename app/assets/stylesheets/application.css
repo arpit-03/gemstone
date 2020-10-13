@@ -1585,3 +1585,43 @@ margin-left: 5px;
 a{
 	text-decoration: none !important;
 }
+
+#lightbox{
+     position:fixed; 
+    top:0; 
+    left:0; 
+    width:100vw; 
+    height:100vh; 
+    background-color: #000000d1;
+
+    text-align:center;
+padding: 200px;
+}
+.textbox{
+
+    text-align: left;
+    padding: 50px;
+    background-color: black;
+    font-family: system-ui;
+}
+.textbox p{
+    text-align: left !important;
+    font-size: 14px ; 
+}
+#lightbox p {
+    text-align:right; 
+    color:#fff; 
+    margin-right:20px; 
+    font-size:12px; 
+}
+
+#lightbox div {
+    box-shadow:0 0 25px #111;
+    -webkit-box-shadow:0 0 25px #111;
+    -moz-box-shadow:0 0 25px #111;
+    max-width:940px;
+}
+
+.boxn{
+  cursor: pointer;
+}
