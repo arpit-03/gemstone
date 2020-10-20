@@ -1,0 +1,35 @@
+<div class="space-header"></div>
+<div style="padding-top: 15px;padding-bottom: 15px">
+	<h4>Add Gemstone Consulting Services Master Data</h4>
+<%= form_for @amd, url: createamd_path do |f| %>
+ <div class="form-group">
+<%=f.text_field :sno,class:'form-control',type:"number",placeholder:"S No"%><br>
+  </div>
+ <div class="form-group">
+<%=f.text_field :name,class:'form-control',type:"text",placeholder:"Name"%><br>
+  </div>
+<div class="form-group">
+<%=f.text_field :location,class:'form-control',type:"text",placeholder:"Location"%><br>
+  </div>
+  <div class="form-group">
+<%=f.text_field :contactp,class:'form-control',type:"text",placeholder:"Contact Person"%><br>
+  </div>
+  <div class="form-group">
+<%=f.text_field :mobile,class:'form-control',type:"text",placeholder:"Mobile Number"%><br>
+  </div>
+  <div class="form-group">
+<%=f.text_field :email,class:'form-control',type:"text",placeholder:"Mail Id"%><br>
+  </div>
+  <div class="form-group">
+<%=f.text_field :toc,class:'form-control',type:"text",placeholder:"Time Of Call"%><br>
+  </div>
+  <div class="form-group">
+<%=f.text_field :status,class:'form-control',type:"text",placeholder:"Status"%><br>
+  </div>
+  <div class="form-group">
+<%=f.text_field :blead,class:'form-control',type:"text",placeholder:"Business Lead"%><br>
+  </div>
+   <%=f.submit "Save", class: 'btn btn-info'%>
+<% end %>
+</div>
+</div>

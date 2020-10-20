@@ -16,7 +16,9 @@
          
           <li><a href="#team">Team</a></li>
           <li><a href="#contact">Contact</a></li>
-
+          <%if session[:user_id] || session[:admin_id]%>
+<li><a href="/signout">Signout</a></li>
+<%end%>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -471,7 +473,15 @@ Explore our services for more.
    
 
     <div class="container">
+      <div style="display: flex;justify-content: space-between">
+      <h6 style="padding: 20px"><a href="/login">Login</a></h6>
+      <h6 style="padding: 20px"><a href="/admin">Admin</a></h6>
+      <h6 style="padding: 20px"><a href="/stone">Data</a></h6>
+      <h6 style="padding: 20px"><a href="/createuser">Add User</a></h6>
+
+      </div>
       <div class="copyright">
+
         &copy; Copyright <strong><span>Gemstone Consulting Solutions IIR</span></strong>. All Rights Reserved
       </div>
      

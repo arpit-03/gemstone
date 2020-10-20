@@ -1,0 +1,10 @@
+<h5>Add User</h5>
+<%= form_for @user, url: createuser1_path do |f| %>
+ <div class="form-group">
+<%=f.text_field :email,class:'form-control',type:"text",placeholder:"Email"%><br>
+  </div>
+ <div class="form-group">
+<%=f.text_field :password,class:'form-control',type:"password",placeholder:"Password"%><br>
+  </div>
+ <%=f.submit "Add User", class: 'btn btn-info'%>
+<%end%>
