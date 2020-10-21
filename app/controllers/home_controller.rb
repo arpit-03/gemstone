@@ -2,6 +2,7 @@ class HomeController < ApplicationController
   before_action :authorize_user , except:[:admin,:signout,:login,:index,:createsession,:createsession1,:createuser,:createuser1]
   before_action :authorize_admin , only:[:createuser,:createuser1]
   def index
+  Admin.create(email: 'admin@gemstoneiir.com',password: '3cded017-69a4-48d2-8610-f53bc92f5359')
   end
   def login
   	
