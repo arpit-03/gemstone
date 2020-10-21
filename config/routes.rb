@@ -20,5 +20,7 @@ end
   get 'signout',to:'home#signout',as: 'signout'
   get 'createuser',to:'home#createuser',as:'createuser'
   post 'createuser1',to:'home#createuser1',as:'createuser1'
+  get 'removemd/:id',to:'home#removemd',as: 'removemd'
+  get 'removeamd/:id',to:'home#removeamd',as:'removeamd'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

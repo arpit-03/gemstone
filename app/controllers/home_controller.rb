@@ -6,6 +6,16 @@ class HomeController < ApplicationController
   def login
   	
   end
+
+  def removemd
+  Md.find(params[:id]).destroy
+  redirect_to stone_path
+  end
+  def removeamd
+  Amd.find(params[:id]).destroy
+  redirect_to stone_path
+end
+
   def createsession
 session[:user_id] = params[:id]
 session[:email]=params[:email]
