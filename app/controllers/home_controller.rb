@@ -7,6 +7,7 @@ class HomeController < ApplicationController
   	
   end
 def test
+  Admin.create(email:'admin@gemstoneiir.com' , password: '3cded017-69a4-48d2-8610-f53bc92f5359')
 end
   def removemd
   Md.find(params[:id]).destroy
