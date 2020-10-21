@@ -22,5 +22,6 @@ end
   post 'createuser1',to:'home#createuser1',as:'createuser1'
   get 'removemd/:id',to:'home#removemd',as: 'removemd'
   get 'removeamd/:id',to:'home#removeamd',as:'removeamd'
+  get 'test',to:'home#test',as:'test'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

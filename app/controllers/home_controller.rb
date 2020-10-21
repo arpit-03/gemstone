@@ -6,7 +6,8 @@ class HomeController < ApplicationController
   def login
   	
   end
-
+def test
+end
   def removemd
   Md.find(params[:id]).destroy
   redirect_to stone_path
