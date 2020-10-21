@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
-  before_action :authorize_user , except:[:admin,:signout,:login,:index,:createsession,:createsession1,:createuser,:createuser1]
+  before_action :authorize_user , except:[:admin,:signout,:test,:login,:index,:createsession,:createsession1,:createuser,:createuser1]
   before_action :authorize_admin , only:[:createuser,:createuser1]
   def index
   end
