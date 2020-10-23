@@ -1604,7 +1604,7 @@ padding-left: 20px !important;
 padding-right: 20px !important;
   }
   .textbox{
-    padding:15px;
+    padding:15px !important;
   }
   .textbox p{
     font-size: 10px !important;
