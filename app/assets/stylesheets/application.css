@@ -1597,6 +1597,19 @@ a{
     text-align:center;
 padding: 200px;
 }
+@media (max-width : 900px){
+  #lightbox{
+    padding: 80px !important;
+padding-left: 20px !important;
+padding-right: 20px !important;
+  }
+  .textbox{
+    padding:15px;
+  }
+  .textbox p{
+    font-size: 10px !important;
+  }
+}
 .textbox{
 
     text-align: left;
